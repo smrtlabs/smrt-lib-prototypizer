@@ -1,0 +1,31 @@
+{
+    "author": "Mateusz Charytoniuk <mateusz.charytoniuk@gmail.com>",
+    "name": "smrt-lib-prototypizer",
+    "license": "MIT",
+    "main": "smrt-lib-prototypizer",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "gulp test"
+    },
+    "dependencies": {
+        "express": "4.x",
+        "swig": "2.x"
+    },
+    "devDependencies": {
+        "chai": "1.9.x",
+        "gulp": "3.x",
+        "gulp-esformatter": "0.x",
+        "gulp-eslint": "0.x",
+        "gulp-istanbul": "0.x",
+        "gulp-mocha": "0.x",
+        "gulp-watch": "0.x",
+        "sinon": "1.x"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smrtlabs/smrt-lib-prototypizer"
+    }
+}
